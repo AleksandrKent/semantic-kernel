@@ -14,7 +14,7 @@
   },
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "python.formatting.provider": "autopep8",
+  "python.formatting.provider": "black",
   "python.formatting.autopep8Args": [
     "--max-line-length=120"
   ],
@@ -71,7 +71,16 @@
     "**/Thumbs.db": true
   },
   "cSpell.words": [
-    "Partitioner"
+    "arange",
+    "dtype",
+    "insentive",
+    "iterrows",
+    "memoryrecords",
+    "ndarray",
+    "ndim",
+    "Partitioner",
+    "ucollection",
+    "usearch"
   ],
   "[java]": {
     "editor.formatOnSave": false,
@@ -90,5 +99,11 @@
   },
   "java.debug.settings.onBuildFailureProceed": true,
   "java.compile.nullAnalysis.mode": "disabled",
-  "dotnet.defaultSolution": "dotnet\\SK-dotnet.sln"
+  "dotnet.defaultSolution": "dotnet\\SK-dotnet.sln",
+  "python.linting.cwd": "ruff",
+  "python.testing.pytestArgs": [
+    "python"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
 }

@@ -5,14 +5,20 @@
 		"ghcr.io/devcontainers/features/dotnet:1": {
 			"version": "7"
 		},
-		"ghcr.io/jlaundry/devcontainer-features/azure-functions-core-tools:1": {}
+		"ghcr.io/jlaundry/devcontainer-features/azure-functions-core-tools:1": {},
+		"ghcr.io/devcontainers/features/python:1": {}
 	},
 	"customizations": {
 		"vscode": {
 			"extensions": [
 				"ms-dotnettools.dotnet-interactive-vscode",
 				"ms-semantic-kernel.semantic-kernel",
-				"esbenp.prettier-vscode"
+				"esbenp.prettier-vscode",
+				"njpwerner.autodocstring",
+				"streetsidesoftware.code-spell-checker",
+				"yzhang.markdown-all-in-one",
+				"ms-python.black-formatter",
+				"charliermarsh.ruff"
 			]
 		}
 	},
